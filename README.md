@@ -1,6 +1,7 @@
 # FreqLens — Paper Reproduction (under review)
 
 This folder is the **self-contained code for GitHub**: only what is needed to reproduce the paper. Run everything from **this directory** (`paper_release/`).
+![architecture_page-000](https://github.com/user-attachments/assets/e59f9baa-9548-4597-bdce-5c5d7a78771e)
 
 ## Seeds Used in the Paper
 
