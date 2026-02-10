@@ -1,6 +1,6 @@
 # FreqLens — Paper Reproduction (under review)
 
-**FreqLens: Interpretable Frequency Attribution for Time Series Forecasting** (KDD 2026, under review) is an interpretable forecasting framework that discovers dominant frequencies from data and attributes predictions to them with formal guarantees.
+**FreqLens: Interpretable Frequency Attribution for Time Series Forecasting** (under review) is an interpretable forecasting framework that discovers dominant frequencies from data and attributes predictions to them with formal guarantees.
 
 - **Learnable frequency discovery** — Frequency bases are parameterized (sigmoid mapping) and learned from data with diversity regularization, so the model finds dominant periodic patterns (e.g. daily, weekly) without domain knowledge.
 - **Axiomatic frequency attribution** — Predictions are an exact sum of per-frequency contributions. This additive structure satisfies Completeness, Faithfulness, Null-Frequency, and Symmetry; the per-frequency attribution equals the Shapley value.
