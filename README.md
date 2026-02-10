@@ -1,6 +1,12 @@
 # FreqLens — Paper Reproduction (under review)
 
-This folder is the **self-contained code for GitHub**: only what is needed to reproduce the paper. Run everything from **this directory** (`paper_release/`).
+**FreqLens: Interpretable Frequency Attribution for Time Series Forecasting** (KDD 2026, under review) is an interpretable forecasting framework that discovers dominant frequencies from data and attributes predictions to them with formal guarantees.
+
+- **Learnable frequency discovery** — Frequency bases are parameterized (sigmoid mapping) and learned from data with diversity regularization, so the model finds dominant periodic patterns (e.g. daily, weekly) without domain knowledge.
+- **Axiomatic frequency attribution** — Predictions are an exact sum of per-frequency contributions. This additive structure satisfies Completeness, Faithfulness, Null-Frequency, and Symmetry; the per-frequency attribution equals the Shapley value.
+
+The architecture has four parts: Learnable Frequency Decomposition → Sparse Frequency Selection (top-K) → Axiomatic Attribution Head (per-frequency MLPs, no shared params) → Residual Fusion. This repository is the **self-contained code for reproduction**: run everything from **this directory**.
+
 ![architecture_page-000](https://github.com/user-attachments/assets/e59f9baa-9548-4597-bdce-5c5d7a78771e)
 
 ## Seeds Used in the Paper
