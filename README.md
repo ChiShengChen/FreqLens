@@ -1,4 +1,4 @@
-# FreqLens — Paper Reproduction (KDD 2026)
+# FreqLens — Paper Reproduction (under review)
 
 This folder is the **self-contained code for GitHub**: only what is needed to reproduce the paper. Run everything from **this directory** (`paper_release/`).
 
